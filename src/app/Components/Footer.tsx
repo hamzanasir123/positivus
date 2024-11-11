@@ -36,7 +36,7 @@ function Footer() {
             className='ml-[80px] sm:ml-0'
             />
             </Link>
-            <Link href={"https://www.linkedin.com/in/hamza-nasir-bb02142b5/"} target='_blank'>
+            <Link href={"https://www.facebook.com/profile.php?id=100013306129157&mibextid=kFxxJD"} target='_blank'>
             <Image
             src={"/Social icon (2).png"}
             height={30}
@@ -44,7 +44,7 @@ function Footer() {
             alt='Facebook'
             />
             </Link>
-            <Link href={"https://github.com/hamzanasir123"} target='_blank'>
+            <Link href={"https://www.instagram.com/hamzaking9531/profilecard/?igsh=NDU1ZHo0M3I4NDg="} target='_blank'>
             <Image
             src={"/Social icon (3).png"}
             height={30}
@@ -61,7 +61,7 @@ function Footer() {
         <br/>
         <div className='grid sm:grid-cols-3 sm:m-10 sm:h-[185px]'>
             <div className='col-span-1 sm:mx-10 text-center sm:text-left ml-16'>
-                <Link href={""} target='_blank' className='bg-[#B9FF66] p-1 px-5  rounded-md'>
+                <Link href={"#ContactU"} className='bg-[#B9FF66] p-1 px-5  rounded-md'>
                     Contact Us:
                 </Link>
                 <br/>

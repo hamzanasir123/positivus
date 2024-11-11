@@ -5,7 +5,7 @@ import React from 'react'
 function AboutSection() {
   return (
     <>
-    <div className='w-full mb-20'>
+    <div id='#About' className='w-full mb-20'>
         <div className='grid sm:grid-cols-3 sm:m-20  bg-black rounded-[45px]'>
             <div className=' m-10 text-white'>
                <p className='mb-16'>

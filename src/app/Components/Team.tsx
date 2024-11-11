@@ -13,7 +13,7 @@ function Team() {
     const data = showAll ? teamData.teamsData : teamData.teamsData.slice(0,6);
   return (
     <>
-    <Services title='Team' msg='Meet the skilled and experienced team behind our successful digital marketing strategies'/>
+    <Services link='#Team' title='Team' msg='Meet the skilled and experienced team behind our successful digital marketing strategies'/>
     <div id='Team' className='flex flex-wrap'>
             {data.map((teamCard) => (
                 <div key={teamCard.id} className='grid grid-rows-3 sm:h-[331px] w-[387px] bg-white sm:mt-12 m-3 sm:ml-10 rounded-[45px] shadow-black shadow-md border-black border-2'>

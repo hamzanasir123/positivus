@@ -16,17 +16,17 @@ export default function Home() {
     <>
     <Hero/>
     <LogoTypes/>
-    <Services msg={"At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:"} title={"Services"}/>
+    <Services link="#Services" msg={"At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:"} title={"Services"}/>
     <CardSection/>
     <ProposalSection/>
-    <Services msg={"Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies"} title={"Case Studies"}/>
+    <Services link="#About" msg={"Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies"} title={"Case Studies"}/>
     <AboutSection/>
-    <Services msg={"Step-by-Step Guide to Achieving Your Business Goals"} title={"Our Working"}/>
+    <Services link="#Cards" msg={"Step-by-Step Guide to Achieving Your Business Goals"} title={"Our Working"}/>
     <Card/>
     <Team/>
-    <Services msg={"Hear from Our Satisfied Clients: Read Our Testimonials to Learn More about Our Digital Marketing Services"} title={"Testimonials"}/>
+    <Services link="#Feedback" msg={"Hear from Our Satisfied Clients: Read Our Testimonials to Learn More about Our Digital Marketing Services"} title={"Testimonials"}/>
     <Feedbacks/>
-    <Services title="Contact Us" msg="Connect with Us : Lets Discuss Your Digital Marketing Needs."/>
+    <Services link="#ContactUs" title="Contact Us" msg="Connect with Us : Lets Discuss Your Digital Marketing Needs."/>
     <ContactUs/>
     </>
   );
